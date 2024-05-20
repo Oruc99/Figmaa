@@ -1,0 +1,48 @@
+.blogTitle{
+    margin-top: 60px;
+}
+.blogInfo{
+    margin: 15px;
+}
+.img{
+    margin-top: 50px;
+    width: 100%;
+    height: 400px;
+    background-image: url('https://s3-alpha-sig.figma.com/img/c441/e9a2/e469601b15b8a2294b76805bbeaded56?Expires=1716768000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=dRyfWt1ABCYtr-y7uEpTF3Yy1kmuJjGKpu-Y10x~jLmnieOXE0Ofncw3f8hOYU83Y3hKH5gyEg3LUrXkNw7EjDgwN3aK0vrqV6DsEeL5-dESN9E~jCKcmngsLGu8Ent2v4k24c8KKaM7VwtIXYzu5CydlceCQTdXJsNsxnG~RmYCN99govWhTDQb0Kmb5h1o~OBFkdwmU7yf50CGWE-q8zxavozwQcbDiV8CDfmu0FDXlGXK3oIY5yb4uPx9tYkLBlNzbesu1IUmpj8rpH0UE4Jzyr0CvFTaYLv4FOzpAy04UQkeVBSNSgBww7kOGAwuLEY0fNPiR63PFp-mFI94gw__');
+    background-size: cover;
+    background-position: center;
+}
+.imgInfo{
+    margin-top: 60px;
+}
+.cardsTitle{
+    margin-top: 90px;
+    margin-bottom: 50px;
+    font-weight: 600;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:  100px 60px;
+    margin-bottom: 160px;
+}
+
+.card{
+    border: none;
+}
+.cardDate{
+    margin: 20px 0;
+    opacity: 0.7;
+}
+.cardSalary{
+    font-size: 24px;
+    margin-bottom: 15px;
+
+}
+.cardInfo{
+    opacity: 0.7;
+}
+.cardLink{
+    text-decoration: none;
+
+}

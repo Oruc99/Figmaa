@@ -1,0 +1,36 @@
+.pricingCard li {
+    list-style-position: inside;
+}
+
+.pricingCard ul {
+    margin-left: 3px;
+}
+
+.pricingCard button {
+    border-radius: 20px;
+    background-color: #FCD980;
+    border: none;
+    margin-bottom: 30px;
+}
+
+.pricingCard button:hover {
+    background-color: #d8bc73;
+}
+.askedGuestion{
+    font-size: 40px;
+}
+.askedGuestionRight{
+    width: 65%;
+}
+.pricingFoot{
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+.guestion:hover{
+    transition: 400ms;
+    background-color: rgb(237, 237, 237);
+}
+.guestion{
+    padding-inline: 30px;
+
+}

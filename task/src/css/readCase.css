@@ -1,0 +1,53 @@
+.readCaseFon{
+    height: 640px;
+    padding: 30px;
+    background-image: linear-gradient(45deg,red,yellow,green,pink,rgb(0, 149, 255));
+}
+.readCaseImg{
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+.design{
+    margin-top: 90px;
+}
+.readCaseMain{
+    width: 75%;
+    margin: 60px auto;
+}
+li{
+    list-style-position: inside;
+
+}
+ul{
+    padding: 20px;
+}
+.readCaseMainFon{
+    width: 100%;
+    padding: 30px;
+    height: 550px;
+    background-image: linear-gradient(135deg, #F4EDE1 ,#98B1C6);
+}
+.readCaseMainImg{
+    width: 100%;
+    height: 100%;
+    background-image: url('https://s3-alpha-sig.figma.com/img/9d8b/85b2/a81f8565751e90a85530ae1b25082314?Expires=1716768000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=LnhcI48L0j7m-syl9cO4HE0iDI-M~wi73cMz~~MWd6zzdhyQzX5aE~2C2QPJACq55p9f074i3VsbtrZIVEEZnfr2BqOOVw4dTJnUiafe~HzB7e0h1ksCQwZF-el7eEkXvx01m5x6U1mn~8q8PxEPnGrgs9rZ6Wci2eIAjpzBXnEbqH1Dv-Siif5dkt36iV61gIYPvzj2skk1aIicRaCXKwZT0epMWoUD-dCRzZTRFNK4UtiAY724GACFrIi316AOkH8NsEg24Up9w-pIR0dn-0AvApTcK1-oPnrS8cSzasKJXtVJNIgLvILHrTrGTI6B-4SlJKCcNh2-Gp~-EV3Pew__');
+    background-size: cover;
+    background-position: top center;
+}
+.readCaseBtnContact{
+    padding: 12px 17px;
+    border-radius: 22px;
+    background-color: #FCD980;
+    margin: 30px auto;
+    text-decoration: none;
+    color: black;
+    display: block;
+    width: min-content;
+    text-wrap: nowrap;
+
+}
+.readCaseBtnContact:hover{
+    background-color: #e9c469;
+}

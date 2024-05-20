@@ -1,0 +1,131 @@
+.homeTopRight{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 40px;
+    width: 50%;
+}
+.homeTopRight i{
+    font-size: 35px;
+    color: rgb(0, 191, 255);
+}
+.homeMainImg{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    height: 450px;
+    margin-top: 30px;
+}
+.imgH1{
+
+    background-image: url('https://s3-alpha-sig.figma.com/img/f9ae/cbcc/81dc407a479e9f836b774781b1bff86c?Expires=1716768000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=KZv80yVpCCZ1xlT3bbSTO7di6zAJWj2cv~GyLiUNR5LkcW7MhRNdTeEDU7R6gI0OBi8eYYcjQ931HfCS1fSTfJ8Ung9A2R-Xh2W5qUM4HtmTF4OH9MHfyvrNsfmyCRg2Are1x-as3E5q6kJuac74ig4~Z-k76RFOKJpLcnt-wKzJBSrkhHX1RLVpo0--Fu7iuePKDk59~HkmSErnxUJ0cnumy5hTtjs5AmY083ApeiAWk0kyfFN4XigQH2VFvJahdSHJ6BU5HBR4jyHDtVyTl2kV9CXbIG-ZQkXmqcoLqDCwRAw1MrYlTf8Z9PwvCSGnWd4hwGS2X13KyvOGnlP0bQ__');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.homeImg1{
+    grid-column: 1 /span 2;
+    grid-row: 1 / span 2;
+    position: relative;
+}
+.homeFon1{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(90deg,rgb(0, 170, 255) , transparent);
+}
+.homeImg2{
+    background-image: url('https://s3-alpha-sig.figma.com/img/925a/1706/caea911fabe832213919de94a2b25fcc?Expires=1716768000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=qBt1TfDBgZYVHzhcjyphvrFLHRilyt1lsGlJ1k3sXZwZoqpU2rvY1li6QV4-EPzolJspZpDYXyn568J113AIZ10Shr3q9k~tkMqSZ7ixuJVp7XAqjOca944hvkhJ293smsnZExTBj3WXuvpPAXS8UuLTz6FGZOzJ7SueFsG2NUzNST6ehcxelxK~ytq4pV5IF8n~eUUYZECht~crc8gUa9nf9GktpENnBb6kAFJPF9yOEuOcfjcjLgU9GNEgwyddToNkEfYlpJBjREsr3p0Z8fg~QoooeLZtGupoKT93DD4zS9m-l~SJ7KjMNBuK-Cmi7J55plwslfLgCeGBChH6ZQ__');
+    background-size: cover;
+    background-position: center;
+}
+.homeImg3{
+    background-image: url('https://s3-alpha-sig.figma.com/img/9c9d/fea4/ea7b783f5568e87ff7247a58a5e792cb?Expires=1716768000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=REie9qGKIKfUhVu~nEZDAXBByu~kfmcDWLN8XfTiVAZ2iPmJMsIZrsI2dfyO3RAeBjvIMFaRUylIhl4X9bIwnkN2swus1WAhKRaxcvchiFGPInky8kUMNUXiTm8KvL3lZCAvYVVesWUfBAntVeeQ6tSm6q6mdfPbwaXPbUl35BKxeLcNBfK5riy7lr57oVYZ6SEzzAJLO3wD9Vvrswo9QQn74iLm1lHG5g-TUh3juYsNSgq9pnPJ9819gNGJGlIQjEyLOKGb8aXhnEE36VySujdt3tSgTWTLyl1~zF1LOsJVJPhUxLCIDZ~kDmMpiIkAb4BD3cfhnU8qmgjXh29Bfw__');
+    background-size: cover;
+    background-position: center;
+}
+.homeImg1 p,
+.homeImg1 h2{
+    color: white;
+}
+.img1Info{
+    position: absolute;
+    margin-left: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+.homeCards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    padding-bottom: 70px;
+    padding-top: 40px;
+}
+.homeCards i{
+    font-size: 35px;
+    padding: 25px;
+}
+.homeCards h2{
+    padding-inline:25px ;
+}
+.homeCards p{
+    padding-inline: 25px;
+    padding-block: 20px;
+}
+.inquiryImg{
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-image: url('https://s3-alpha-sig.figma.com/img/9c9d/fea4/ea7b783f5568e87ff7247a58a5e792cb?Expires=1716768000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=REie9qGKIKfUhVu~nEZDAXBByu~kfmcDWLN8XfTiVAZ2iPmJMsIZrsI2dfyO3RAeBjvIMFaRUylIhl4X9bIwnkN2swus1WAhKRaxcvchiFGPInky8kUMNUXiTm8KvL3lZCAvYVVesWUfBAntVeeQ6tSm6q6mdfPbwaXPbUl35BKxeLcNBfK5riy7lr57oVYZ6SEzzAJLO3wD9Vvrswo9QQn74iLm1lHG5g-TUh3juYsNSgq9pnPJ9819gNGJGlIQjEyLOKGb8aXhnEE36VySujdt3tSgTWTLyl1~zF1LOsJVJPhUxLCIDZ~kDmMpiIkAb4BD3cfhnU8qmgjXh29Bfw__');
+}
+.inquiry p{
+    padding-right: 40px;
+    padding-top: 20px;
+}
+
+.inquiryFon{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 69, 107 , 0.7);
+}
+.inquiryAbsolute{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 40px;
+    height: 100%;
+}
+.inquiryContact{
+    background-color: #1C1E53;
+    color: white;
+}
+.homeForm input:not(.homeSubmitInp){
+    background-color: transparent;
+    border: 1px solid rgba(227, 227, 227, 0.8);
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    outline: none;
+    caret-color: white;
+}
+.homeForm input:not(.homeSubmitInp):focus{
+    border: 1px solid white;
+}
+.homeForm input:not(.homeSubmitInp)::placeholder{
+    color: rgb(255, 255, 255, 0.8);
+}
+.homeSubmitInp{
+    padding: 10px ;
+    margin-top: 30px;
+    width: 100%;
+    border-radius: 20px;
+    border: none;
+    font-weight: 600;
+    background-color: #FCD980;
+}
